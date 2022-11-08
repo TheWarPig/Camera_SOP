@@ -210,12 +210,14 @@ h1 {
   text-align: center;
   padding: 0.5rem;
   background: rgb(218, 218, 218);
-  color: rgb(0, 110, 255);
   text-decoration: none;
   font-size: 1.2rem;
   width: fit-content;
   border-radius: 0.5rem;
   transition: 0.5s ease;
+}
+.posttip li a {
+  color: rgb(0, 110, 255);
 }
 .posttip li a:visited {
   color: rgb(0, 110, 255);
