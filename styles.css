@@ -6,6 +6,7 @@
 }
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: var(--scroll-padding, 85px);
   font-size: 19px;
 }
 
@@ -52,7 +53,7 @@ body {
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2);
 }
 main {
-  margin: 90px 1rem;
+  margin: 90px 3rem;
 }
 
 .link {
@@ -124,9 +125,13 @@ a {
 }
 p {
   line-height: 2rem;
+  text-align: right;
 }
 .top_banner {
   margin-bottom: 2rem;
+}
+.hyper_link {
+  text-decoration: underline;
 }
 
 #myBtn {
@@ -210,7 +215,7 @@ h1 {
   background: rgb(218, 218, 218);
   text-decoration: none;
   font-size: 1.2rem;
-  width: fit-content;
+  width: 22rem;
   border-radius: 0.5rem;
   transition: 0.5s ease;
 }
