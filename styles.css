@@ -187,7 +187,6 @@ h1 {
   border-radius: 0.675rem;
 }
 .flex > * {
-  /* flex: 1; */
   max-width: 30rem;
   min-width: auto;
 }
