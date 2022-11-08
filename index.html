@@ -16,16 +16,46 @@
   </head>
   </div>
   <body>
-
-  <div class="logo">
-      <img src="/Images/unnamed-removebg-preview.png">
-  </div>
+    <div class="header">
+      <div class="logo">
+          <img src="/Images/unnamed-removebg-preview.png">
+      </div>
+      <div class="dropdown" data-dropdown>
+        <button class="link" data-dropdown-button>
+          עברית
+          <img src="/Images/Israel.png">
+        </button>
+        <div class="dropdown-menu information-grid">
+          <div> 
+            <div class="dropdown-links">
+              <a href="#" class="link">
+                English
+                <img src="/Images/United_States.png">
+              </a>
+              <a href="#" class="link">
+                español
+                <img src="/Images/Spain.png">
+              </a>
+              <a href="#" class="link">
+                عربيه
+                <img src="/Images/Arab_Nations.png">
+              </a>
+              <a href="#" class="link">
+                Русский
+                <img src="/Images/Russia.png">
+              </a>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="/Images/186407_arrow_up_icon.svg"></button>
     <div class="top_banner">
       <h1>המצלמה לא מתחברת למבחנים? כך תסדרו זאת!</h1>
     </div>
     <p>
-      המערכת נתמכת רק בדפדפנים Google Chrome או Firefox.<br />
+      מערכת המבחנים נתמכת רק בדפדפנים Google Chrome או Firefox.<br />
       יש לוודא שימוש בדפדפנים אלו בלבד ולא באף דפדפן אחר.<br />
       אם בבעלותך מחשב מסוג Mac יש לוודא שימוש בדפדפן המתאים (דפדפן Safari אינו
       נתמך).<br />
@@ -63,7 +93,7 @@
         במידה ולחיצה על כפתורים אלו לא פתחו את המצלמה, יש לבדוק אם קיימת חלונית הזזה פיזית על מצלמת המחשב.<br>
         אם כן, יש להזיז אותה לאחד הצדדים בכדי להפעיל את המצלמה.
         </p>
-        <img class="screenshot" src="/Images/1.png" />
+        <div class="photo"><img class="screenshot" src="/Images/1.png" /></div>
       </div>
         <div class="header">
           <h3>אם על המסך מופיעה התמונה הבאה:</h3>
@@ -71,11 +101,11 @@
         <div class="header flex">
           <div>
           <p>יש לוודא שהמצלמה מאופשרת בדפדפן:<br><br>
-          <img class="screenshot" src="/Images/camera ap.png" ><br>
-          אם סימן המצלמה נראה כמו בתמונה מעלה - סימן שהמצלמה מאופשרת.
+          <div class="photo"><img class="screenshot" src="/Images/camera ap.png" ></div>
+          <br>אם סימן המצלמה נראה כמו בתמונה מעלה - סימן שהמצלמה מאופשרת.
           </div>
         </p>
-          <img class="screenshot" src="/Images/2.png" />
+          <div class="photo"><img class="screenshot" src="/Images/2.png" /></div>
         </div>
         <div class="flex">
         <p>
@@ -83,7 +113,7 @@
           המצלמה כפי שמתואר בתמונה ולאפשר את השימוש במצלמה.<br>
           לאחר מכן יש לסגור את חלון המבחן ולהיכנס שוב דרך הקישור בתיבת המייל.
         </p>
-        <img class="screenshot" src="/Images/3.png" />
+        <div class="photo"><img class="screenshot" src="/Images/3.png" /></div>
         </div>
       <div class="header">
         <h2>עדיין לא רואה את עצמך במסך בדיקת המצלמה?</h3>
@@ -98,7 +128,7 @@
           יש ללחוץ על כפתור ה-Windows בתחתית המסך ולהקליד את המילה "מצלמה" (אם
           שפת ממשק המחשב היא באנגלית, יש לחפש "Camera".
             </p>
-            <img class="screenshot" src="/Images/4.png" />
+            <div class="photo"><img class="screenshot" src="/Images/4.png" /></div>
           </div>
           <div class="flex">
             <p>
@@ -107,7 +137,7 @@
               אם סגירת כל התוכנות הנוספות לא פתרה את הבעיה, יש לבצע אתחול מחדש של המחשב ולהיכנס שוב למבחנים.<br>
                אם הבעיה עדיין לא נפתרה, יש לנסות להתחבר ממחשב אחר בעל מצלמה תקינה.
             </p>
-            <img class="screenshot" src="/Images/5.png">
+            <div class="photo"><img class="screenshot" src="/Images/5.png"></div>
           </div>
           <p>
           </p>
@@ -123,13 +153,13 @@
               אם האתר עדיין לא מצליח לזהות את המצלמה, יש לבדוק האם מותקנות תוכנות אנטיוירוס על המחשב אשר עלולות למנוע גישה למצלמה.<br><br>
               <strong>יש ללחוץ על כפתור "Test my cam".</strong>
             </p>
-            <img class="screenshot" src="/Images/6.png">
+            <div class="photo"><img class="screenshot" src="/Images/6.png"></div>
           </div>
           <div class="flex">
             <p>
               לאחר מכן, יש לתת אישור למצלמה להתחבר לאתר.
             </p>
-            <img class="screenshot" src="/Images/7.png">
+            <div class="photo"><img class="screenshot" src="/Images/7.png"></div>
           </div>
           <div class="flex">
             <p>
@@ -137,7 +167,7 @@
               <strong>נלחץ על כפתור "Test my cam".</strong><br>
               בשלב זה תמונת אמורה להופיע על המסך.
             </p>
-            <img src="/Images/8.png" alt="" class="screenshot">
+            <div class="photo"><img class="screenshot" src="/Images/8.png" ></div>
           </div>
           <p>
             נכנס חזרה אל המבחנים דרך הקישור בתיבת המייל ונראה אם המצלמה מתחברת.<br>
