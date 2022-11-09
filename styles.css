@@ -126,6 +126,51 @@ a {
 p {
   line-height: 2rem;
   text-align: right;
+  transition: 0.5s ease-in-out;
+}
+.accordion {
+  margin-top: 2rem;
+  background-color: #eee;
+  cursor: pointer;
+  padding: 0.8rem 1rem;
+  width: 100%;
+  border: none;
+  border-radius: 0.5rem;
+  text-align: center;
+  outline: none;
+  font-size: 1.5rem;
+  font-weight: 500;
+  transition: 0.4s;
+}
+.accordion.active,
+.accordion:hover {
+  background-color: #ccc;
+}
+.accordion:after {
+  content: "\002B";
+  color: #777;
+  font-weight: bold;
+  float: left;
+  margin-left: 5px;
+}
+
+.accordion.active:after {
+  content: "\2212";
+}
+.panel {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+h2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 0.8rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background: rgb(218, 218, 218);
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 .top_banner {
   margin-bottom: 2rem;
@@ -240,13 +285,6 @@ h1 {
   align-items: flex-start;
   text-align: right;
   list-style-position: inside;
-}
-h2 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  padding: 0.8rem 1rem;
-  border-radius: 0.5rem;
-  background: rgb(218, 218, 218);
 }
 
 @media (max-width: 1275px) {
