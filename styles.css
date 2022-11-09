@@ -363,7 +363,9 @@ h1 {
   html {
     font-size: 15px;
   }
-
+  .h2div {
+    font-size: 1rem;
+  }
   .logo img {
     height: 50px;
     width: 50px;
