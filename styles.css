@@ -151,7 +151,7 @@ p {
 }
 .accordion:after {
   content: "\002B";
-  color: #777;
+  color: #fff;
   font-weight: bold;
   float: left;
   margin-left: 5px;
