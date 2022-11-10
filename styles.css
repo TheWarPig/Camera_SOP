@@ -138,6 +138,7 @@ p {
     rgba(47, 157, 178, 1) 10%,
     rgba(237, 103, 38, 1) 35%
   );
+  box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.4);
   color: #fff;
   cursor: pointer;
   padding: 0.8rem 1rem;
@@ -158,6 +159,7 @@ p {
     rgba(37, 124, 141, 1) 10%,
     rgba(165, 64, 13, 1) 35%
   );
+  transform: rotateY(-10deg);
 }
 .accordion:after {
   content: "\002B";
@@ -187,6 +189,7 @@ h2 {
     rgba(47, 157, 178, 1) 10%,
     rgba(237, 103, 38, 1) 35%
   );
+  box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.4);
   color: #fff;
   font-size: 1.3rem;
   font-weight: 500;
