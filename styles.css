@@ -132,7 +132,12 @@ p {
 .accordion {
   margin-top: 1rem;
   margin-bottom: 0.5rem;
-  background-color: #ed6726;
+  background: rgb(47, 157, 178);
+  background: linear-gradient(
+    319deg,
+    rgba(47, 157, 178, 1) 10%,
+    rgba(237, 103, 38, 1) 35%
+  );
   color: #fff;
   cursor: pointer;
   padding: 0.8rem 1rem;
@@ -147,7 +152,12 @@ p {
 }
 .accordion.active,
 .accordion:hover {
-  background: #f59a6d;
+  background: rgb(37, 124, 141);
+  background: linear-gradient(
+    319deg,
+    rgba(37, 124, 141, 1) 10%,
+    rgba(165, 64, 13, 1) 35%
+  );
 }
 .accordion:after {
   content: "\002B";
@@ -171,7 +181,12 @@ h2 {
   padding: 0.8rem 1rem;
   border: none;
   border-radius: 0.5rem;
-  background: #ed6726;
+  background: rgb(47, 157, 178);
+  background: linear-gradient(
+    319deg,
+    rgba(47, 157, 178, 1) 10%,
+    rgba(237, 103, 38, 1) 35%
+  );
   color: #fff;
   font-size: 1.3rem;
   font-weight: 500;
