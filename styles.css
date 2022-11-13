@@ -9,6 +9,12 @@ html {
   scroll-padding-top: var(--scroll-padding, 85px);
   font-size: 17px;
 }
+html[dir="ltr"] p {
+  text-align: left;
+}
+html[dir="ltr"] li {
+  text-align: left;
+}
 
 .selected-lang {
   cursor: pointer;
@@ -28,6 +34,9 @@ html {
   padding: 0;
   background-color: #fff;
   border: 1px solid #f8f8f8;
+}
+nav {
+  z-index: 100;
 }
 
 body {
@@ -116,6 +125,7 @@ main {
 
 li {
   list-style: none;
+  line-height: 2rem;
 }
 a {
   text-decoration: none;
@@ -124,6 +134,7 @@ p {
   line-height: 2rem;
   text-align: right;
   transition: 0.5s ease-in-out;
+  font-weight: 500;
 }
 .accordion {
   margin-top: 1rem;
@@ -138,7 +149,7 @@ p {
   text-align: center;
   outline: none;
   font-size: 1.2rem;
-  font-weight: 500;
+  font-weight: 600;
   transition: 0.4s;
 }
 .accordion.active,
@@ -156,6 +167,9 @@ p {
 .accordion.active:after {
   content: "\2212";
 }
+html[dir="ltr"] .accordion:after {
+  float: right;
+}
 .panel {
   max-height: 0;
   overflow: hidden;
@@ -169,8 +183,8 @@ h2 {
   border-radius: 2rem;
   background: #c5c6d0;
   box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.4);
-  font-size: 1.3rem;
-  font-weight: 500;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 .top_banner {
   margin-bottom: 2rem;
